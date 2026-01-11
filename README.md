@@ -40,12 +40,6 @@ Aby urządzenie wyglądało profesjonalnie i było bezpieczne w użytkowaniu, za
 
 🔗 **Pobierz model:** [Terminal for SSD1306 1.3" OLED and Wemos D1 mini NEW (Printables)](https://www.printables.com/model/160473-terminal-for-ssd1306-13-oled-and-wemos-d1-mini-new)
 
-> **⚠️ Ważna uwaga licencyjna dot. obudowy:**
-> Model 3D obudowy jest udostępniony na licencji **CC BY-NC 4.0** (Uznanie autorstwa - Użycie niekomercyjne).
-> * Możesz go wydrukować na własny użytek.
-> * Możesz tworzyć jego modyfikacje.
-> * **NIE MOŻESZ** sprzedawać wydrukowanych obudów ani używać ich w celach zarobkowych bez zgody autora modelu.
-
 ## 📦 Instalacja Oprogramowania
 
 1.  Zainstaluj środowisko **Arduino IDE**.
