@@ -61,10 +61,13 @@ Urządzenie po pierwszym uruchomieniu (lub gdy nie znajdzie znanej sieci) wejdzi
 3.  Powinno automatycznie otworzyć się okno konfiguracji (Captive Portal). Jeśli nie, wejdź w przeglądarce na adres `192.168.4.1`.
 4.  Wybierz swoją domową sieć WiFi i wpisz do niej hasło.
 5.  Uzupełnij parametry APRS:
-    * **Znak:** Twój znak krótkofalarski (np. SQ7UTP-10).
-    * **APRS Pass:** Kod wygenerowany dla Twojego znaku.
+    * **Znak:** Twój znak krótkofalarski z SSID (np. SQ7UTP-X) <-- ( -X jak najbardziej zalecane! ).
+    * **Hasło APRS:**
+    * **Ikonka APRS:** Polecam wpisać **L**
     * **Lat/Lon:** Twoje współrzędne geograficzne (np. 51.75 / 19.45).
+    * **Komentarz:** Komentarz który będzie wysyłany z BEACON
     * **Filtr:** Promień nasłuchu w kilometrach (np. 50).
+    
 6.  Zapisz. Urządzenie zrestartuje się i połączy z siecią.
 
 ## 📖 Instrukcja Obsługi
