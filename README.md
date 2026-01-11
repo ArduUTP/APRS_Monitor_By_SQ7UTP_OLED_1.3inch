@@ -91,19 +91,20 @@ Gdy urządzenie odbierze nowy pakiet, przełączy się na 12 sekund w tryb szcze
 ### Zmiana Ustawień (Web Panel)
 Gdy urządzenie jest połączone z Twoją siecią, wpisz jego adres IP (widoczny na dole ekranu OLED) w przeglądarce. Otrzymasz dostęp do panelu, gdzie możesz zmienić promień filtra, ikonę lub komentarz bez resetowania urządzenia.
 
-## 📜 Licencje
+## 📜 Licencje i Odpowiedzialność
 
 Projekt składa się z dwóch niezależnych części objętych różnymi licencjami:
 
 1.  **Kod Źródłowy:** `GNU GPL v3`
-    * Autor: Marcin "Skrętka" (SQ7UTP)
-    * Otwarty kod źródłowy, dozwolone modyfikacje i redystrybucja.
+    * **Autor:** Marcin "Skrętka" (SQ7UTP)
+    * **Podziękowania:** Jacek (SP7EZD) za wsparcie merytoryczne.
+    * **Zasady:** Otwarty kod źródłowy, dozwolone modyfikacje i redystrybucja pod tą samą licencją.
+    * **Odpowiedzialność:** Oprogramowanie jest dostarczane w stanie "takim, jakie jest" (AS IS), bez jakiejkolwiek gwarancji. Autor nie ponosi odpowiedzialności za ewentualne szkody sprzętowe, błędy w działaniu lub skutki prawne wynikające z użytkowania urządzenia. **Wszystkie modyfikacje sprzętowe i programowe wykonujesz na własną odpowiedzialność.**
 
 2.  **Model Obudowy 3D:** `CC BY-NC 4.0`
-    * Autor modelu: (Link do Printables w sekcji Obudowa)
-    * **Tylko do użytku niekomercyjnego.**
-
-**Podziękowania:** Jacek (SP7EZD) za wsparcie merytoryczne.
+    * **Autor modelu:** (Link do Printables w sekcji Obudowa)
+    * **Zasady:** Dozwolone modyfikacje i druk na użytek własny.
+    * **Ograniczenia:** Zabronione wykorzystanie komercyjne (sprzedaż wydruków) bez zgody autora modelu.
 
 ---
 *73 i udanych nasłuchów!*
