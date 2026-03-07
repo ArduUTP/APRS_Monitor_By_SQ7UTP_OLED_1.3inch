@@ -13,6 +13,14 @@
 **Autor:** Marcin "Skrętka" (SQ7UTP)
 📧 **Kontakt:** sq7utp@gmail.com
 
+## 🚀 Co nowego w najnowszej wersji? (Aktualizacje i Poprawki)
+Projekt został znacząco rozbudowany o nowe funkcje sieciowe i stabilizujące:
+* **Aktualizacje OTA (Over-The-Air):** Urządzenie potrafi samo połączyć się z GitHubem, sprawdzić dostępność nowej wersji i bezpiecznie pobrać nowe oprogramowanie przez WiFi (z ładnym paskiem postępu na ekranie!).
+* **Fail-Safe WiFi (Ochrona przed awariami sieci):** Urządzenie nie zawiesza się przy braku internetu. Po utracie sygnału cierpliwie puka do routera przez 5 minut (animacja kropek), a jeśli router nie odpowie, stawia własny awaryjny hotspot na 10 minut.
+* **Przycisk "Resetuj WiFi":** Do Web Panelu dodano czerwony przycisk bezpieczeństwa, pozwalający wyczyścić starą sieć jednym kliknięciem (idealne przy przenoszeniu urządzenia np. na działkę).
+* **Zgodność ze standardami APRS:** Zmieniono typ ramki na eksperymentalny `APZESP` oraz poprawiono ścieżkę dla bramek sieciowych na `TCPIP*`.
+* **Ochrona pamięci (Buffer Overflow):** Zabezpieczono wszystkie pola tekstowe (np. bardzo długie komentarze), dzięki czemu błędy wprowadzania danych nie powodują już "zerowania" współrzędnych geograficznych.
+
 ## 🌟 Funkcjonalności
 
 * **Monitorowanie na żywo:** Odbiór ramek APRS z serwerów Tier 2 (domyślnie `lodz.aprs2.net`).
@@ -60,7 +68,7 @@ Aby urządzenie wyglądało profesjonalnie i było bezpieczne w użytkowaniu, za
     * `ArduinoJson` (wersja 6.x)
 4.  Wybierz w Arduino IDE odpowiednią płytkę (np. "LOLIN(WEMOS) D1 R2 & mini").
 5.  Upewnij się, że masz zainstalowaną wtyczkę/narzędzie do przesyłania plików **LittleFS** (opcjonalne, kod sam sformatuje pamięć przy pierwszym uruchomieniu, ale warto o tym pamiętać).
-6.  Wgraj szkic (`APRS_Monitor.ino`) do urządzenia.
+6.  Wgraj szkic (`APRS_Monitor_By_SQ7UTP_V1.3_U8G2_SH1106_128X64`) do urządzenia.
 
 ## 🚀 Pierwsze Uruchomienie i Konfiguracja
 
@@ -109,7 +117,14 @@ Gdy urządzenie odbierze nowy pakiet, przełączy się na 12 sekund w tryb szcze
 </p>
 
 ### Zmiana Ustawień (Web Panel)
-Gdy urządzenie jest połączone z Twoją siecią, wpisz jego adres IP (widoczny na dole ekranu OLED) w przeglądarce. Otrzymasz dostęp do panelu, gdzie możesz zmienić promień filtra, ikonę lub komentarz bez resetowania urządzenia.
+Gdy urządzenie jest połączone z Twoją siecią, wpisz jego adres IP (widoczny na dole ekranu OLED) w przeglądarce. Otrzymasz dostęp do panelu, gdzie możesz zmienić promień filtra, ikonę lub komentarz bez resetowania urządzenia. Z poziomu panelu możesz też zainicjować awaryjny reset ustawień WiFi.
+
+### Aktualizacje OTA (Over-The-Air)
+Urządzenie wspiera aktualizacje przez internet. Jeśli nowa wersja zostanie opublikowana na GitHubie, urządzenie po restarcie automatycznie ją pobierze i zainstaluje, pokazując postęp na ekranie OLED.
+
+<p align="center">
+  <img src="img/update_1.3.jpg" width="400" alt="Ekran aktualizacji OTA">
+</p>
 
 ## 📜 Licencje i Odpowiedzialność
 
